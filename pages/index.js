@@ -6,6 +6,8 @@ import Services from "@/components/servicesArea/Services";
 import Pricing from "@/components/pricingArea/Pricing";
 import CallToAction from "@/components/callToAction/CallToAction";
 import Clients from "@/components/clients/Clients";
+import Footer from "@/components/footer/Footer";
+import Contact from "@/components/contact/Contact";
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
       <Pricing />
       <CallToAction />
       <Clients />
+      <Contact />
+      <Footer />
     </>
   );
 }
