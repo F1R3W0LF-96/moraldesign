@@ -29,5 +29,4 @@ function HeroArea() {
     </section>
   );
 }
-
 export default HeroArea;
